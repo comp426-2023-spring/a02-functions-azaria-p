@@ -1,0 +1,28 @@
+{
+    "name": "a02-functions-azaria-p",
+    "version": "1.0.0",
+    "description": "a02",
+    "main": "index.js",
+    "scripts": {
+      "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/comp426-2023-fall/a02-functions-azaria-p.git"
+    },
+    "author": "azaria-p",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+      "url": "https://github.com/comp426-2023-fall/a02-functions-azaria-p/issues"
+    },
+    "homepage": "https://github.com/comp426-2023-fall/a02-functions-azaria-p#readme",
+    "dependencies": {
+      "minimist": "^1.2.7",
+      "moment-timezone": "^0.5.38",
+      "node-fetch": "^3.2.10"
+    },
+    "bin": {
+      "galosh.js": "./cli.js"
+    },
+    "type": "module"
+  }
